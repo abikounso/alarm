@@ -10,7 +10,7 @@ end
 
 JOBS =
 [
-register_job(:month => "4-12"     , :day => "*"    , :week => "1-5"  , :hour => "8"           , :min => "20", :wav => "chaim"),
+register_job(:month => "4-12"     , :day => "1-20" , :week => "1-5"  , :hour => "8"           , :min => "20", :wav => "chaim"),
 register_job(:month => "*"        , :day => "*"    , :week => "1-6"  , :hour => "0,9,12,17,18", :min => "0" , :wav => "chaim"),
 register_job(:month => "*"        , :day => "*"    , :week => "1-5"  , :hour => "8"           , :min => "56", :wav => "manner_mode"),
 register_job(:month => "*"        , :day => "*"    , :week => "1,3,5", :hour => "13"          , :min => "0" , :wav => "radio_exercise01"),
